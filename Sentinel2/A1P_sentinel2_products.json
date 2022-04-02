@@ -1,0 +1,43 @@
+{
+  "script": {
+    "rawInput": "folder/where/downloaded/imagery/is/located",
+    "productOutput": "putput/folder",
+    "clippingMask": "full/path/to/shapefile/used/for/clipping.shp",
+    "outEPSG": "EPSG:3857"
+  },
+  "products": {
+    "0": {
+      "name": "EVI",
+      "bands": {
+        "0": "B08",
+        "1": "B04",
+        "2": "B02"
+      },
+      "resolution": "R10m"
+    },
+    "1": {
+      "name": "NDMI",
+      "bands": {
+        "0": "B8A",
+        "1": "B11"
+      },
+      "resolution": "R20m"
+    },
+    "2": {
+      "name": "NDWI",
+      "bands": {
+        "0": "B03",
+        "1": "B08"
+      },
+      "resolution": "R10m"
+    },
+    "3": {
+      "name": "NDVI",
+      "bands": {
+        "0": "B04",
+        "1": "B08"
+      },
+      "resolution": "R10m"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "url": "Address of your api.",
+  "endPoint": "Name of the endpoint",
+  "user": "If your endpoint is protected - it should be:)",
+  "password": "**********"
+}

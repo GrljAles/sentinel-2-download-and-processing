@@ -1,0 +1,9 @@
+{
+  "url": "Address of your API",
+  "endPoint": "Endpoint name",
+  "user": "If your endpoint is protected - it should be:)",
+  "password": "*********",
+  "productName": "NDMI <example name of new index>",
+  "availableDates": [20210505, 20210506, 2021507],
+  "isOpen": "True <Defines if the index is open for public viewing>"
+}

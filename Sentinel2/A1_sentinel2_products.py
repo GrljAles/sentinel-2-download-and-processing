@@ -222,7 +222,6 @@ def calculateProducts(params, imageryDate):
     ## Fetch arguments from json.
     rawInput = params["script"]["rawInput"]
     clippingMask = params["script"]["clippingMask"]
-    extentMask = params["script"]["extentMask"]
     productArgs = params["products"]
     outEPSG = params["script"]["outEPSG"]
     productOutput = params["script"]["productOutput"]
@@ -473,7 +472,6 @@ def calculateProducts(params, imageryDate):
             logging.error(e)
             continue
 
-        #logging.info("Constructing gdalMerge.py command.")
         mosaicPath = os.path.join(mosaicFolder, mosaicName)
 
         logging.info(f"Creating tile mosaic {mosaicPath}.")
